@@ -1,0 +1,9 @@
+# Serve the site from the soulmates/ folder (it holds web/ and assets/)
+[build]
+  publish = "soulmates"
+
+# The landing page lives at /web/ — send the bare domain there
+[[redirects]]
+  from = "/"
+  to = "/web/"
+  status = 301
